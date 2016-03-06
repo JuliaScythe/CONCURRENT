@@ -1,0 +1,98 @@
+/* Fonts */
+
+/*
+** Title: Ailerons
+** No Commercial usage
+** Only capitals
+*/
+
+@font-face{
+	font-family: 'custom-title';
+	src: url('ailerons-typeface-webfont.eot');
+	src: url('ailerons-typeface-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('ailerons-typeface-webfont.woff') format('woff'),
+	     url('ailerons-typeface-webfont.ttf') format('truetype'),
+	     url('ailerons-typeface-webfont.svg#webfont') format('svg');
+
+/* Styles */
+
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #111111;
+}
+.navbar {
+  margin: 0;
+  width: 100%;
+  background-color: #000000;
+  padding: 15px;
+  font-family:"custom-title";
+  font-size: 2em;
+  color: #FFFFFF;
+}
+.navbar-red {
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding: 15px;
+  background-color: #FF0000;
+}
+
+.navbar-two {
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding: 15px;
+  background-color: #CC0033;
+}
+.navbar-three {
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding: 15px;
+  background-color: #990066;
+}
+.navbar-four {
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding: 15px;
+  background-color: #660099;
+}
+.navbar-five {
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding: 15px;
+  background-color: #3300CC;
+}
+.navbar-six {
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding: 15px;
+  background-color: #0000FF;
+}
+.navbar-spacer {
+  width: 100%;
+}
+
+.inline {
+  display:inline;
+}
+.jumbotron {
+  font-family:"custom-title";
+  width:100%;
+  background-color:#FF0000;
+  margin:0;
+  padding: 30px;
+  text-align:center;
+}
+.jumbotron-subtitle {
+  font-family:"custom-title";
+  width:100%;
+  background-color:#CC0033;
+  margin:0;
+  padding: 30px;
+  text-align:center;
+}
+h1 {
+  color: #FFFFFF;
+  font-size: 5em;
+  margin: 0;
+}
